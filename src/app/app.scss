@@ -4,3 +4,42 @@
 // styles are for the entire app and not just one component. Additionally, this 
 // file can hold Sass mixins, functions, and placeholder classes to be imported 
 // and used throughout the application.
+
+.split-pane-side {
+    border-right: 0px !important;
+ }
+ 
+//  .menu-container {
+//     background-color: color($colors, secondary);
+//  }
+ 
+ .transparent {
+    background: transparent;
+ }
+ 
+ .list-item {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 2rem;
+ }
+ 
+ :hover.list-item {
+    background: #2e8015;
+ }
+ 
+ .scroll-content{
+    overflow: hidden;
+    margin-right: -17px;
+    overflow-y: scroll;
+ }
+
+ // my code
+@media (min-width: 820px) {
+    .page-title {
+        text-align: center;
+    }
+    .main-tm {
+        max-width: 650px;
+    }
+  }
+  
